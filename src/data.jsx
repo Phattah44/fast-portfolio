@@ -1,5 +1,14 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaPython,
+  FaNodeJs,
+  FaDocker,
+  FaDatabase,
+} from 'react-icons/fa';
+import { SiTypescript, SiDjango } from 'react-icons/si';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -30,38 +39,38 @@ export const skills = [
   {
     id: nanoid(),
     title: 'Typescript',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <SiTypescript className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced knowledge of Typescript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality.',
   },
   {
     id: nanoid(),
     title: 'Python',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaPython className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced Knowledge of Python, utilizing python resources and library in building a more sophisticated and functional application.',
   },
   {
     id: nanoid(),
     title: 'Django',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <SiDjango className='h-16 w-16 text-emerald-500' />,
+    text: 'Knowlwdge of Django, developing efficient and robust backend applications with a Django.',
   },
   {
     id: nanoid(),
     title: 'NodeJS/ExpressJS',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    text: 'Advanced proficiency in NodeJS and ExpressJS, developing efficient, scalable REST API and backend server.',
   },
   {
     id: nanoid(),
     title: 'Postgresql',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaDatabase className='h-16 w-16 text-emerald-500' />,
+    text: 'Knowledge of Database management tools which include Mongo DB and PostgreSQL.',
   },
   {
     id: nanoid(),
     title: 'Docker and Kubernete',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    icon: <FaDocker className='h-16 w-16 text-emerald-500' />,
+    text: 'Knowlwdege of DevOps tool which include Docker and Kubernete.',
   },
 ];
 
