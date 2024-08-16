@@ -10,7 +10,7 @@ const Hero = () => {
             Software developer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            turning ideas into interactive reality
+            Crafting Digital Experiences and Turning pixels into possibilities.
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='#'>
